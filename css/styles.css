@@ -22,7 +22,7 @@ h6 {
 
 .section-heading {
     font-size: 3rem;
-    line-height: 1.5rem;
+    line-height: 1.5;
 }
 
 /* Containers */
@@ -93,7 +93,6 @@ p {
 .title-img {
     width: 50%;
     transform: rotate(25deg);
-
     /* transform-origin:top-right; */
     position: absolute;
     right: 30%;
@@ -189,7 +188,7 @@ p {
 }
 
 .socials {
-    margin-bottom: 3%;
+    margin-bottom: 2%;
 }
 
 .soc-ico {
@@ -207,10 +206,16 @@ p {
         text-align: center;
     }
 
+    #title .container-fluid {
+        text-align: center;
+    }
+
     .title-img {
         position: static;
         width: 60%;
         transform: rotate(0);
+        text-align: center;
+
 
     }
 }
