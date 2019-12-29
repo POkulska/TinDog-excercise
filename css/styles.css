@@ -30,6 +30,17 @@ h6 {
     padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: #fff;
+
+}
 
 /* Paragraph */
 
@@ -71,13 +82,9 @@ p {
 
 /* Title Section */
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-    text-align: left;
-}
 
 #title .container-fluid {
+    text-align: left;
     padding: 3% 15% 7%;
 }
 
@@ -104,7 +111,6 @@ p {
 /* Features section */
 
 #features {
-    background-color: #fff;
     position: relative;
     /* z-index:1; */
 }
@@ -134,7 +140,6 @@ p {
 /* Testimonial section */
 #testimonials {
     background-color: #ef8172;
-    color: white;
 }
 
 .testimonial-text {
@@ -177,16 +182,9 @@ p {
 
 
 /* cta */
-#cta {
-    color: white;
-    background-color: #ff4c68;
-}
-
-
 
 /* footer */
 #footer {
-    background-color: #fff;
     color: black;
 }
 
